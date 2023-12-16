@@ -65,6 +65,7 @@ DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOSTS'),
+    '.herokuapp.com',
     '.gitpod.io',
     'localhost',
     '127.0.0.1',
