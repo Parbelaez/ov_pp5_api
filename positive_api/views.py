@@ -10,7 +10,7 @@ from .settings import (
 @api_view()
 def root_route(request):
     return Response({
-        'message': 'Welcome to the Positive API v.0.1812.2226',
+        'message': 'Welcome to the Positive API v.0.1812.2235',
     })
 
 # dj-rest-auth bug fix workaround
