@@ -37,7 +37,7 @@ REST_FRAMEWORK = {
 
 # JSON and html renderer only in development
 if 'HTML_REND' not in os.environ:
-    REST_FRAMEWORK = ['DEFAULT_RENDERER_CLASSES']: [
+    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES']: [
             'rest_framework.renderers.JSONRenderer',
         ]
 
